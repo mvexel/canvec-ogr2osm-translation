@@ -11,7 +11,7 @@ The process is as follows:
 * Locate a `road_segment_*.shp` file and note the path
 * Install ogr2osm from [Paul Norman's repository](https://github.com/pnorman/ogr2osm)
 * Download `canvec.py` from this repository.
-* Run the translation: `/path/to/ogr2osm.py -t /path/to/canvec.py /path/to/road_segment_x.shp
+* Run the translation: `/path/to/ogr2osm.py -t /path/to/canvec.py /path/to/road_segment_x.shp`
 
 Depending on the size of the shapefile and the machine you run it on, this will take a (long) while. The resulting OSM XML file can be loaded into JOSM or processed further with osmosis, etc. 
 
