@@ -59,12 +59,12 @@ def roadClassLookup(roadclass_identifier):
 		tags['bus'] = 'yes'
 	elif roadclass_identifier == 317:
 		# Resource-Recreation Cart Track
-		# Définition à venir
+		# TODO
 		tags['highway'] = 'raceway'
 		tags['sport'] = 'karting'
 	elif roadclass_identifier in [318, 319, 320]:
 		# Resource-Recreation Dry Weather
-		# Définition à venir
+		# TODO
 		tags['highway'] = 'raceway'
 	elif roadclass_identifier == 312:
 		# Service Lane
