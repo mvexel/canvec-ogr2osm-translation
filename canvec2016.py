@@ -86,6 +86,8 @@ def filterTags(attrs):
 		tags.update({'lanes': attrs['numlanes']}) 
 	if 'rdsegnamen' in attrs:
 		tags.update({'name': attrs.get('rdsegnamen')})
+	elif 'rtenam1_en' in attrs:
+		tags.update({'name': attrs.get('rtenam1_en')})
 	if 'rdsefnamfr' in attrs: 	 
 		tags.update({'name:fr': attrs.get('rdsegnamfr')})
 	if 'rdcls' in attrs:
