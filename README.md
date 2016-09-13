@@ -16,3 +16,7 @@ The process is as follows:
 Depending on the size of the shapefile and the machine you run it on, this will take a (long) while. The resulting OSM XML file can be loaded into JOSM or processed further with osmosis, etc. 
 
 If you want to improve on this translation, please clone this repo and submit pull requests. If you don't know how that works, email me and I will help.
+
+Some tips:
+* The prerequisites for ogr2osm are notoriously hard to install on OSX. I use a linux VM to work with ogr2osm.
+* Test with a small file, like [the one for Prince Edward Island](http://ftp.geogratis.gc.ca/pub/nrcan_rncan/vector/canvec/shp/Transport/canvec_50K_PE_Transport_shp.zip). Note that not all road types / attribute combinations may be present in all files.
